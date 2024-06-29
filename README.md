@@ -12,7 +12,7 @@ OpenCore Hackintosh settings for ASUS Prime B450M-A with Ryzen7 3700X and Radeon
 - **WiFi/BT**: Intel AX200
 
 ## Radeon HD7000 Series Issue
-- OpenCore is designed for UEFI systems, but the HD7000 series does not support Graphics Output Protocol (GOP), making it not UEFI bootable. However, UEFI booting is possible by flashing the BIOS of the graphics card to one that supports GOP. Please proceed at your own risk! For more information, you can refer to [this post](https://winraid.level1techs.com/t/amd-and-nvidia-gop-update-no-requests-diy/30917).
+OpenCore is designed for UEFI systems, but the HD7000 series does not support Graphics Output Protocol (GOP), making it not UEFI bootable. However, UEFI booting is possible by flashing the BIOS of the graphics card to one that supports GOP. Please proceed at your own risk! For more information, you can refer to [this post](https://winraid.level1techs.com/t/amd-and-nvidia-gop-update-no-requests-diy/30917).
 
 ## What Works
 - macOS Monterey
@@ -40,9 +40,9 @@ OpenCore Hackintosh settings for ASUS Prime B450M-A with Ryzen7 3700X and Radeon
 
 
 ## To Use this EFI
-- Serial, Board Serial, SmUUID, and Apple ROM are deleted. Generate them using GenSMBIOS. 
+Serial, Board Serial, SmUUID, and Apple ROM are deleted. Generate them using GenSMBIOS. 
 [SMBIOS](https://github.com/corpnewt/GenSMBIOS) [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/#creating-your-config-plist)
 
 ## Thanks / Credits
-- [Opencore Team](https://dortania.github.io/getting-started/)
-- [lordkag](https://winraid.level1techs.com/u/lordkag) for the GOP Updater
+- **[Opencore Team](https://dortania.github.io/getting-started/)**
+- **[lordkag](https://winraid.level1techs.com/u/lordkag)** for the GOP Updater
